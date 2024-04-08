@@ -95,6 +95,7 @@ public class fightController : MonoBehaviour
                     this.hero_GO.transform.Rotate(-90, 0, 0);
                     this.fightCommentaryTMP.text = "Monster Wins!!!!!";
                     this.shouldAttack = false;
+                    Gameobject.tag = "have-power-pellet";
                 }
                 else
                 {
